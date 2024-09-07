@@ -1,7 +1,7 @@
 from datetime import datetime
 from uuid import UUID
 
-from fastapi_users.schemas import BaseUser, BaseUserCreate, BaseUserUpdate, CreateUpdateDictModel
+from fastapi_users.schemas import BaseUser, BaseUserCreate, CreateUpdateDictModel
 from pydantic import Field, EmailStr, ConfigDict
 
 
@@ -16,9 +16,7 @@ class UserRead(BaseUser[UUID]):
     registered_at: datetime
     device_verification_code: str | None
 
-    # model_config = ConfigDict(from_attributes=True)
-    class Config:
-        orm_mode = True
+    model_config = ConfigDict(from_attributes=True)
 
 
 class UserUpdate(CreateUpdateDictModel):
