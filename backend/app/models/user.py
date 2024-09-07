@@ -34,6 +34,7 @@ class User(SQLAlchemyBaseUserTableUUID, SqlAlchemyModel):
         nullable=True,
         comment='Код подтверждения для устройства'
     )
+    device_id: Mapped[str] = mapped_column(String(length=36), nullable=True, default=None, comment='Id девайса')
     registered_at: Mapped[datetime] = mapped_column(
         DateTime,
         nullable=False,

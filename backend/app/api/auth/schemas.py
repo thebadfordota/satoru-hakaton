@@ -14,6 +14,7 @@ class UserRead(BaseUser[UUID]):
     position: str
     task_type: str
     registered_at: datetime
+    device_id: str | None
     device_verification_code: str | None
 
     model_config = ConfigDict(from_attributes=True)
@@ -29,6 +30,7 @@ class UserUpdate(CreateUpdateDictModel):
     position: str | None = None
     task_type: str | None = None
     is_superuser: bool | None = None
+    device_id: str | None = None
     device_verification_code: str | None = None
 
 
@@ -37,6 +39,7 @@ class UserCreate(BaseUserCreate):
     first_name: str
     last_name: str
     patronymic: str | None = Field(None)
+    device_id: str | None = Field(None)
     password: str
     position: str
     task_type: str
