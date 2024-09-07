@@ -28,6 +28,7 @@ class UserUpdate(CreateUpdateDictModel):
     patronymic: str | None = None
     position: str | None = None
     task_type: str | None = None
+    is_superuser: bool | None = None
     device_verification_code: str | None = None
 
 
