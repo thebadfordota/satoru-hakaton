@@ -28,7 +28,7 @@ class UserManager(UUIDIDMixin, BaseUserManager[User, UUID]):
         safe: bool = False,
         request: Optional[Request] = None,
     ) -> models.UP:
-        """Create a user in database"""
+        """Создать пользователя"""
 
         await self.validate_password(user_create.password, user_create)
 
@@ -43,8 +43,6 @@ class UserManager(UUIDIDMixin, BaseUserManager[User, UUID]):
         )
         password = user_dict.pop("password")
         user_dict["hashed_password"] = self.password_helper.hash(password)
-        user_dict['is_active'] = True
-        user_dict['is_verified'] = True
 
         created_user = await self.user_db.create(user_dict)
 
