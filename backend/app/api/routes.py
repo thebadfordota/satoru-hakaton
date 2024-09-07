@@ -1,7 +1,9 @@
 from fastapi import APIRouter
 
+from app.api.action.router import action_router
 from app.api.auth.base_config import auth_backend, fastapi_users
 from app.api.auth.schemas import UserRead, UserCreate, UserUpdate
+from app.api.device.router import device_router
 
 router = APIRouter()
 
@@ -20,3 +22,6 @@ router.include_router(
     prefix="/users",
     tags=["users"],
 )
+
+router.include_router(action_router)
+router.include_router(device_router)
