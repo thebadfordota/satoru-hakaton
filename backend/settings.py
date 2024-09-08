@@ -25,9 +25,10 @@ class Settings(BaseSettings):
     DB_HOST: str
     DB_PREFIX: str
 
+    FIREBASE_TOKEN: str
+
     ECHO_SQL: bool
     DB_URI: str = Field(default='')
-
     model_config = SettingsConfigDict(
         env_file=get_env_path(),
         case_sensitive=True,
