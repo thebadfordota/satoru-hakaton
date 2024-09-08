@@ -1,0 +1,4 @@
+__pycache__/
+.venv/
+
+tk_app.py
