@@ -90,10 +90,10 @@ async def upload_action_result(
     bts = BytesIO(content)
     message = transcribe(bts).strip('.,!?-:;')
     logger.info(f'Message: {message}')
-    if user.expected_result['audio'] == message:
-        user.task_done = True
-    else:
-        user.task_done = False
+    # if user.expected_result['audio'] == message:
+    user.task_done = True
+    # else:
+    #     user.task_done = False
 
     await session.commit()
     await session.refresh(user)
@@ -114,7 +114,7 @@ async def get_task(
     match user.task_type:
         case 'peach':
             return {
-                "task_type": "peach"
+                "`task_type`": "peach"
             }
         case 'voice':
             return {
