@@ -2,7 +2,7 @@ from fastapi import HTTPException
 from fastapi.requests import Request
 from loguru import logger
 
-DEVICE_ID_KEY = 'DEVICE_ID'
+DEVICE_ID_KEY = 'device_id'
 
 
 async def get_device_id(request: Request) -> str:
