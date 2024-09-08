@@ -29,6 +29,7 @@ class User(SQLAlchemyBaseUserTableUUID, SqlAlchemyModel):
     patronymic: Mapped[str] = mapped_column(String(length=32), nullable=True, comment='Отчество')
     position: Mapped[str] = mapped_column(String(length=256), nullable=False, comment='Должность')
     task_type: Mapped[str] = mapped_column(String(length=32), nullable=False, comment='Тип задачи')
+    # task_done: Mapped[bool] = mapped_column(Boolean, nullable=True, comment='Статус задачи')
     device_verification_code: Mapped[str] = mapped_column(
         String(length=10),
         nullable=True,
