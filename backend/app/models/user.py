@@ -1,11 +1,12 @@
 from __future__ import annotations
 
 from datetime import datetime
+from typing import Any
 from uuid import UUID, uuid4
 
 from fastapi_users.db import SQLAlchemyBaseUserTableUUID
 from fastapi_users_db_sqlalchemy import GUID
-from sqlalchemy import String, DateTime, Boolean
+from sqlalchemy import String, DateTime, Boolean, JSON
 from sqlalchemy.orm import Mapped, mapped_column
 
 from .sqlalchemy_model import SqlAlchemyModel
@@ -29,7 +30,13 @@ class User(SQLAlchemyBaseUserTableUUID, SqlAlchemyModel):
     patronymic: Mapped[str] = mapped_column(String(length=32), nullable=True, comment='Отчество')
     position: Mapped[str] = mapped_column(String(length=256), nullable=False, comment='Должность')
     task_type: Mapped[str] = mapped_column(String(length=32), nullable=False, comment='Тип задачи')
-    # task_done: Mapped[bool] = mapped_column(Boolean, nullable=True, comment='Статус задачи')
+    task_done: Mapped[bool] = mapped_column(Boolean, nullable=True, comment='Статус задачи')
+    expected_result: Mapped[dict[str, Any]] = mapped_column(
+        JSON,
+        nullable=True,
+        default=None,
+        comment='Ожидаемый результат',
+    )
     device_verification_code: Mapped[str] = mapped_column(
         String(length=10),
         nullable=True,
