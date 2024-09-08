@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Enum uuid="17b40522-a64a-415f-ac7f-3a4811a2fba9">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.EPA_СложностьЗаданий" category="Ref">
+				<xr:TypeId>d551cdd6-0b4d-42d1-a4b2-4196cdae3b69</xr:TypeId>
+				<xr:ValueId>44dc75bb-a41c-463d-b336-832ef0abcdff</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.EPA_СложностьЗаданий" category="Manager">
+				<xr:TypeId>c0316cee-a384-485c-b278-4f872408fb81</xr:TypeId>
+				<xr:ValueId>f2f38f6e-d3a0-47c7-9135-45d3a71fbc5d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.EPA_СложностьЗаданий" category="List">
+				<xr:TypeId>f7576cf6-7c56-4ed2-ad66-2d9f7cea54d0</xr:TypeId>
+				<xr:ValueId>e12908b1-74fe-402b-91d6-5135d4e90e2a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>EPA_СложностьЗаданий</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сложность заданий (EPA)</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>false</UseStandardCommands>
+			<Characteristics/>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="44107d42-668a-4451-b83b-097192a67065">
+				<Properties>
+					<Name>ВводКода</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ввод кода</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="34d865e3-67b3-454f-8ddc-49de9bb5ffaf">
+				<Properties>
+					<Name>СинхронноеНажатие</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Нажатие</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="cd38cc6c-3553-436b-a37f-4af6e1b1a8ff">
+				<Properties>
+					<Name>Загадки</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Голосовое подтверждение</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="fc569636-5026-433e-a817-9c2a54f853e2">
+				<Properties>
+					<Name>Задания</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Задания</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

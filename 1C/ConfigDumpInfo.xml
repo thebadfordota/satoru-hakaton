@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.18">
+	<ConfigVersions>
+		<Metadata name="Catalog.EPA_УстройстваПользователей" id="8e2b269f-7ae5-4883-a355-98c080bfa0d1" configVersion="54c5214a2eb98ec62270ba5ab7297c22b884089b">
+			<Metadata name="Catalog.EPA_УстройстваПользователей.Attribute.Пользователь" id="889ef668-d01d-41e7-a533-7a8cf54dcbfc"/>
+			<Metadata name="Catalog.EPA_УстройстваПользователей.Attribute.IDУстройтсва" id="b050a093-8782-4f47-8c7f-56f3aac67be0"/>
+		</Metadata>
+		<Metadata name="Catalog.EPA_УстройстваПользователей.ManagerModule" id="8e2b269f-7ae5-4883-a355-98c080bfa0d1.3" configVersion="6c1cb68414d0e43813643778ab7bb3960844a9bf"/>
+		<Metadata name="Catalog.ИдентификаторыОбъектовМетаданных" id="8ff9961a-9bc4-4819-940c-a70d580e90d3" configVersion="aebfaa23b2c016443248c9faf6760c37401d3833"/>
+		<Metadata name="Catalog.Номенклатура" id="e1d70dd4-6300-41db-9c61-1c8cd29cafba" configVersion="23513e6ea3fbfae85c1675897828c5f5dc757256"/>
+		<Metadata name="Catalog.Пользователи" id="6e157722-dc04-4a83-bf42-acc777d64bf5" configVersion="568fd5bf91f44e1c8b635cd7556cf60d7367b4cb"/>
+		<Metadata name="Catalog.Пользователи.ManagerModule" id="6e157722-dc04-4a83-bf42-acc777d64bf5.3" configVersion="01eca3f85285171d0ca9e272a0dbba47094956e5"/>
+		<Metadata name="CommonForm.EPA_ФормаАвторизации" id="09b3ca88-a877-45e6-992f-47f88e3cedc6" configVersion="26b577bec45980dc27bd65c7840dcb3c76ab0a62"/>
+		<Metadata name="CommonForm.EPA_ФормаАвторизации.Form" id="09b3ca88-a877-45e6-992f-47f88e3cedc6.0" configVersion="c5029c95915c984dac63f77e1b6f119a7dbf087f"/>
+		<Metadata name="CommonForm.EPA_ФормаГенерацииКода" id="c614e6fa-4921-494e-92a1-394913d40228" configVersion="2bb23c23f34496d15b1cb567d55ed43a1feae216"/>
+		<Metadata name="CommonForm.EPA_ФормаГенерацииКода.Form" id="c614e6fa-4921-494e-92a1-394913d40228.0" configVersion="d4bf0cfa012bc724cb8e57efed190422873ce237"/>
+		<Metadata name="CommonModule.EPA_ВзаимодействиеHTTP" id="a982246f-d36a-4685-a0ce-73671389ec3b" configVersion="048e7c4274c9c5af219785a9d8065378fbada9e7"/>
+		<Metadata name="CommonModule.EPA_ВзаимодействиеHTTP.Module" id="a982246f-d36a-4685-a0ce-73671389ec3b.0" configVersion="ee9832737810f54cc60be3808f40712cc97da140"/>
+		<Metadata name="CommonModule.EPA_ОбработчикиСлужебное" id="30dc69cc-965b-4134-b723-00ccf097713f" configVersion="b7b8140dde6ef298e207041b72f963813fe42356"/>
+		<Metadata name="CommonModule.EPA_ОбработчикиСлужебное.Module" id="30dc69cc-965b-4134-b723-00ccf097713f.0" configVersion="cc44ac318c79ce710ec4e1a310efe213467f81f2"/>
+		<Metadata name="CommonModule.EPA_ОбработчикиСобытий" id="6944a959-ac58-4154-a9f2-258fe1f895ea" configVersion="61f0d6840ca0c045614e9bff1dbdf584133ae0f1"/>
+		<Metadata name="CommonModule.EPA_ОбработчикиСобытий.Module" id="6944a959-ac58-4154-a9f2-258fe1f895ea.0" configVersion="fc80094ab618dbcf1268bc70419029b21703358b"/>
+		<Metadata name="Configuration.EPAction" id="ad2a542a-b063-4dc5-90c6-9869ad41859c" configVersion="453daeb06e70ad930a917f9fdaf5de9e2494547d"/>
+		<Metadata name="Configuration.EPAction.SessionModule" id="a92a8347-b264-49c9-aa1b-e8a0931cd5ef.7" configVersion="62eb022d42389f7f773926b9abb6d9e72f05c8bb"/>
+		<Metadata name="Constant.EPA_URL" id="8451c829-2f82-47f4-8b18-d128cd7b5d07" configVersion="a700fb841e407b7da00d4309cd64f90ac6eb11d2"/>
+		<Metadata name="DataProcessor.EPA_ПанельАдминистрирования" id="53f48fcb-36d0-46da-ac57-293d06e581bc" configVersion="4dbd9c3a7f6f2a848638312c1fa7ee76679b04b2">
+			<Metadata name="DataProcessor.EPA_ПанельАдминистрирования.TabularSection.ТаблицаПользователи.Attribute.Сложность" id="129a368c-21cb-48b3-8b21-51a324ea1a2a"/>
+			<Metadata name="DataProcessor.EPA_ПанельАдминистрирования.TabularSection.ТаблицаПользователи.Attribute.ИнтегрированСEPAction" id="1bf1256c-37bc-4379-9620-9f5223bb242d"/>
+			<Metadata name="DataProcessor.EPA_ПанельАдминистрирования.TabularSection.ТаблицаПользователи.Attribute.Устройство" id="972c781f-c8b6-487f-970b-51d19c7ad5d7"/>
+			<Metadata name="DataProcessor.EPA_ПанельАдминистрирования.TabularSection.ТаблицаПользователи.Attribute.Пользователь" id="9ee58c4c-1bbe-4a3e-924f-79604932ed9d"/>
+			<Metadata name="DataProcessor.EPA_ПанельАдминистрирования.TabularSection.ТаблицаПользователи" id="ca4a3fdf-359f-489c-a273-83886f7a3363"/>
+		</Metadata>
+		<Metadata name="DataProcessor.EPA_ПанельАдминистрирования.Form.Форма" id="1b820e2f-f22a-466d-b8fc-25ac00fc42df" configVersion="baeab224b8156d1a137ea7e9a2ecb3ab0d0e914c"/>
+		<Metadata name="DataProcessor.EPA_ПанельАдминистрирования.Form.Форма.Form" id="1b820e2f-f22a-466d-b8fc-25ac00fc42df.0" configVersion="3d4a0640eb09ce9396c1931a0c437aeeab2a3c67"/>
+		<Metadata name="DefinedType.EPA_URL" id="99f0bd9d-1850-43ba-bc86-d80b43a246dc" configVersion="560cedda66b81d900facf6418e0ad9ffe433dd4a"/>
+		<Metadata name="DefinedType.EPA_Пользователь" id="eea2d62d-ff02-4631-aa5d-597a07328260" configVersion="ae037c1b50d873561dcf5966dfea8771a5949557"/>
+		<Metadata name="Document.РеализацияТоваровУслуг" id="a00cf574-8189-474b-8a26-6ebafbb16a58" configVersion="e8c0aee8e0f63318639b33eec48e6211e1dfde59"/>
+		<Metadata name="Enum.EPA_Действия" id="baf23801-7037-4bff-93b3-7162840e33fb" configVersion="d7791e7a81c90195e58e12c348c5e9f103adc88e">
+			<Metadata name="Enum.EPA_Действия.EnumValue.Проведение" id="7bc20fd3-9628-4e18-add5-e4b46e6568a3"/>
+			<Metadata name="Enum.EPA_Действия.EnumValue.Запись" id="c446acfa-fe88-4e9a-bd23-665aed26bcc3"/>
+		</Metadata>
+		<Metadata name="Enum.EPA_СложностьЗаданий" id="17b40522-a64a-415f-ac7f-3a4811a2fba9" configVersion="b5fa6d75c57e8e34b7b48ffdccfb0267a1977b98">
+			<Metadata name="Enum.EPA_СложностьЗаданий.EnumValue.СинхронноеНажатие" id="34d865e3-67b3-454f-8ddc-49de9bb5ffaf"/>
+			<Metadata name="Enum.EPA_СложностьЗаданий.EnumValue.ВводКода" id="44107d42-668a-4451-b83b-097192a67065"/>
+			<Metadata name="Enum.EPA_СложностьЗаданий.EnumValue.Загадки" id="cd38cc6c-3553-436b-a37f-4af6e1b1a8ff"/>
+			<Metadata name="Enum.EPA_СложностьЗаданий.EnumValue.Задания" id="fc569636-5026-433e-a817-9c2a54f853e2"/>
+		</Metadata>
+		<Metadata name="Enum.EPA_СложностьЗаданий.ManagerModule" id="17b40522-a64a-415f-ac7f-3a4811a2fba9.0" configVersion="6bf97a690ad7d13ccb7e11110a03f9216f6b7124"/>
+		<Metadata name="EventSubscription.EPA_СобытияЗаписи" id="e41bfb3e-e4da-4f64-9916-b03de4d4a14c" configVersion="ed4cb10202fa665bd7d4e957160b1f49230a3f7c"/>
+		<Metadata name="EventSubscription.EPA_СобытияПроведения" id="81ebefd0-6082-4bac-ab49-dd47f1b67e49" configVersion="6799f2fc75e87cca9b58e0c11c70a03171f2564a"/>
+		<Metadata name="InformationRegister.EPA_НастройкиПользователей" id="604d88d1-b2ba-469b-8a09-1337050501f1" configVersion="4af97fc30bba278c1a25c5b895ce7b2a59aa15b7">
+			<Metadata name="InformationRegister.EPA_НастройкиПользователей.Attribute.ИнтегрированСEPAction" id="566f516a-ba5f-4dcb-a0cc-bd0ffbcba106"/>
+			<Metadata name="InformationRegister.EPA_НастройкиПользователей.Attribute.СложностьЗаданий" id="6687941e-cbee-40a9-8c2f-8b1007f8c954"/>
+			<Metadata name="InformationRegister.EPA_НастройкиПользователей.Attribute.EPA_ID" id="9a64a17b-6095-4543-a921-12f4161237bb"/>
+			<Metadata name="InformationRegister.EPA_НастройкиПользователей.Attribute.Устройство" id="d856cb5f-2201-41b2-8b65-fcd7d84d8696"/>
+			<Metadata name="InformationRegister.EPA_НастройкиПользователей.Dimension.Пользователь" id="f4c83c4e-cce5-4f70-8bb0-aed6aeb34844"/>
+			<Metadata name="InformationRegister.EPA_НастройкиПользователей.Attribute.email" id="f9b0599d-3149-4ffe-a8e2-01fcd1f8fd78"/>
+		</Metadata>
+		<Metadata name="InformationRegister.EPA_НастройкиПользователей.ManagerModule" id="604d88d1-b2ba-469b-8a09-1337050501f1.2" configVersion="e1e59ceee68701dea1ca2e75f7077b5184f10018"/>
+		<Metadata name="InformationRegister.EPA_Тригеры" id="3d152df7-a2eb-409e-ab12-b042cf9fc5a1" configVersion="4ad28cc0358b9db13ffe50705dd6b88663c264b3">
+			<Metadata name="InformationRegister.EPA_Тригеры.Dimension.ОбъектСистемы" id="3f49591d-cfff-4c2c-97e4-28b9a771b223"/>
+			<Metadata name="InformationRegister.EPA_Тригеры.Dimension.Пользователь" id="554f958e-4071-4c0d-8733-6ae87929e7ed"/>
+			<Metadata name="InformationRegister.EPA_Тригеры.Attribute.Действия" id="60408740-a268-44a9-b2f6-4acd9bb4f3b5"/>
+		</Metadata>
+		<Metadata name="InformationRegister.EPA_Тригеры.Form.ФормаЗаписи" id="86b8614c-6375-43ab-9e4f-33a4676f2b60" configVersion="06627b2ae6e3aa76e536ab99da3cc9539cdd6325"/>
+		<Metadata name="InformationRegister.EPA_Тригеры.Form.ФормаЗаписи.Form" id="86b8614c-6375-43ab-9e4f-33a4676f2b60.0" configVersion="1fcb045a48f7037fa0c76bce058157de658a062b"/>
+		<Metadata name="InformationRegister.EPA_Тригеры.ManagerModule" id="3d152df7-a2eb-409e-ab12-b042cf9fc5a1.2" configVersion="34202df7803b89cc85ebe1ec2a69283686f652c3"/>
+		<Metadata name="Language.Русский" id="04029ea5-72a5-4eac-a581-796a93e99a84" configVersion="c0c4374a3f8331c33dc88edff55889a0de9cab55"/>
+		<Metadata name="Role.EPA_Администратор" id="b74bda30-6a27-475b-936a-7efd0acf8b92" configVersion="f101a1b69ede97a26bf3357546dd10f11db8db65"/>
+		<Metadata name="Role.EPA_Администратор.Rights" id="b74bda30-6a27-475b-936a-7efd0acf8b92.0" configVersion="64341dafd59d1ba5937faa327cd65476f1bf68b5"/>
+		<Metadata name="Role.EPA_ОсновнаяРоль" id="cf41387f-eec9-4c22-ba04-5db4330a916a" configVersion="3f077ff558c9061ec391672c4f4f5b67f0578007"/>
+		<Metadata name="Role.EPA_ОсновнаяРоль.Rights" id="cf41387f-eec9-4c22-ba04-5db4330a916a.0" configVersion="945ca08e5fa00dd442aaa42b9afe0f4ca7f73d26"/>
+		<Metadata name="SessionParameter.EPA_ТокенДоступа" id="21235463-d93e-4c42-a1d0-519d763113e4" configVersion="41d938ba25fc2cca311e4f695e3bea2a8dcaefa7"/>
+		<Metadata name="Subsystem.EPaction" id="b69dab43-9623-480a-ba3b-e95b1e2814f2" configVersion="dbe61be8e06e9e63f9494c10eb8bcfc0fe54cc83"/>
+		<Metadata name="Subsystem.EPaction.Subsystem.EPA_Администрирование" id="193f1aeb-c691-49e1-a63b-81a5cdb9a28f" configVersion="9686dfd1e524d7ab7cd5227d0fe9d3575bfdfd0c"/>
+		<Metadata name="Subsystem.EPaction.Subsystem.EPA_Администрирование.CommandInterface" id="193f1aeb-c691-49e1-a63b-81a5cdb9a28f.1" configVersion="fdaec039eea90396e8275a4185f01ff2ce9f09af"/>
+		<Metadata name="Subsystem.EPaction.Subsystem.EPA_Настройки" id="1a7eab9c-781a-41c2-ac58-7549a8be5d76" configVersion="3b02b22a3169ed3baefdfcee80e93022dfbea982"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
