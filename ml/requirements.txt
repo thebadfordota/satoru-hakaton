@@ -1,0 +1,8 @@
+mediapipe==0.9.1.0
+numpy==1.26.4
+opencv-python==4.10.0.84
+pandas==2.2.2
+pillow==10.4.0
+protobuf==3.20.0
+scikit-learn==1.1.2
+tensorflow==2.8.0
